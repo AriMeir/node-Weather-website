@@ -4,9 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node src/app.js",
-    "dev": "nodemon src/app.js"
+    "start": "node src/app.js"
   },
   "keywords": [],
   "author": "",
@@ -15,8 +13,5 @@
     "axios": "^1.6.5",
     "express": "^4.18.2",
     "hbs": "^4.2.0"
-  },
-  "devDependencies": {
-    "nodemon": "^3.0.2"
   }
 }
