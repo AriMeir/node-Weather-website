@@ -61,6 +61,7 @@ header a:hover {
     height: 200px; 
     border-radius: 50%; 
     object-fit: cover; 
+    object-position: top;
 }
 
 .main-content {
@@ -101,3 +102,21 @@ button:hover {
     margin-top: 20px;
     font-size: 20px ;
 }
+.about-me .tech-arsenal{
+    margin-top: 20px;
+}
+@keyframes fadeInFromTop {
+    0% {
+      opacity: 0;
+      transform: translateY(-50px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .appear-from-top {
+    opacity: 0;
+    animation: fadeInFromTop 0.8s ease-out forwards;
+  }
