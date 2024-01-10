@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #555; 
+    font-family: 'Arial', 'Helvetica', sans-serif;
+    max-width: 800px; 
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #f9f9f9; 
+}
+.pa {
+    font-size: 25px;
+    line-height: 1.6;
+    color: #666;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    border-radius: 5px;
+    
+}
+
+
+
+footer {
+    color: #888;
+    padding: 16px;
+    border-top: 1px solid #ddd; 
+    margin-top: 32px;
+}
+
+header {
+    margin-top: 32px;
+    margin-bottom: 64px; 
+}
+
+h1 {
+    font-size: 48px; 
+    margin-bottom: 24px;
+}
+
+header a {
+    color: #555; 
+    text-decoration: none;
+    padding: 16px;
+    transition: color 0.3s ease; 
+}
+
+header a:hover {
+    color: #333; 
+}
+
+.portrait {
+    width: 200px; 
+    height: 200px; 
+    border-radius: 50%; 
+    object-fit: cover; 
+}
+
+.main-content {
+    flex-grow: 1;
+    padding: 20px; 
+}
+form {
+    margin-top: 32px;
+    text-align: center;
+}
+
+input {
+    padding: 12px;
+    border-radius: 50px;
+    width: 70%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-right: 10px;
+    outline: none; 
+}
+
+button {
+    padding: 12px 20px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease; 
+}
+
+button:hover {
+    background-color: #2980b9; 
+}
+.p-messageOne {
+    margin-top: 20px;
+    font-size: 20px ;
+}
