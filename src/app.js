@@ -70,11 +70,10 @@ app.get('/weather', (req, res) => {
     } else {
         
         const {weather_descriptions , cloudcover} = apiResponse.current
-        const {country, name} = apiResponse.location
-        debugger
+        const {country, name, localtime , timezone_id} = apiResponse.location
         res.send({
-            forcast: `The weather is ${weather_descriptions[0]
-            }, Current temperature in ${name} is ${apiResponse.current.temperature}℃  and there is ${cloudcover
+            forcast: `The Date and Local time in ${timezone_id} is ${localtime}. The weather is ${weather_descriptions[0]
+            }, Current temperature in ${name} is ${apiResponse.current.temperature}℃ and there is ${cloudcover
             }% chance of rain`,
             country: country,
             address: req.query.address
